@@ -1,6 +1,24 @@
-.example-card {
+course-card {
   max-width: 100%;
   margin-bottom: 8px;
   justify-content: left;
   align-items: Center;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+ .card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+   text-align: right;
+}
+.spacer{
+  flex: 1 1 auto;
 }

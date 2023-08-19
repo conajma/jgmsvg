@@ -46,5 +46,13 @@
     "Eligibility": "Purusha, Mahileyaru,Kids",
     "Batch":"Daily Noon",
     "ImagePath": "../../assets/img/LaxmiShobhane.png"
+  } , 
+  {  
+    "id": 7,  
+    "Name": "Vedha",  
+    "Type": "Kannada Granthagulu",  
+    "Eligibility": "Purusha, Mahileyaru,Kids",
+    "Batch":"Daily Noon",
+    "ImagePath": "../../assets/img/LaxmiShobhane.png"
   }  
 ]  

@@ -14,6 +14,8 @@ import { AboutComponent } from './about/about.component';
 import { CourseComponent } from './course/course.component';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import {MatTableModule} from '@angular/material/table';
+import { CourseAddEditComponent } from './course-add-edit/course-add-edit.component';
+import {MatDialogModule} from '@angular/material/dialog'
 
 
 @NgModule({
@@ -21,7 +23,8 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     NavbarComponent,
     AboutComponent,
-    CourseComponent
+    CourseComponent,
+    CourseAddEditComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import {MatTableModule} from '@angular/material/table';
     MatIconModule,
     MatMenuModule,
     MatCardModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
