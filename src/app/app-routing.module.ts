@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'thirtaKshetra', component: AboutComponent},
   {path:'articles', component: AboutComponent},
   {path:'aboutus', component: AboutComponent},
-  {path: 'add-edit-course',component: CourseAddEditComponent}
+  {path: 'add-course',component: CourseAddEditComponent}
 ];
 
 @NgModule({

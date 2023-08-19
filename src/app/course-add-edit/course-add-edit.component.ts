@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class CourseAddEditComponent {
 
+  constructor(){
+    console.log("Reached here")
+  }
+
 }

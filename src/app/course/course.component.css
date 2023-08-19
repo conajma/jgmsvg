@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .example-card {
   margin-bottom: 8px;
   justify-content: left;
@@ -20,7 +20,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-=======
+}
 course-card {
   max-width: 100%;
   margin-bottom: 8px;
@@ -28,7 +28,6 @@ course-card {
   align-items: Center;
   max-width: 400px;
   margin-top: 10px;
->>>>>>> e92c89e9d90c935bc150e84877bd7528ea20835b
 }
 
  .card-container{
@@ -45,4 +44,12 @@ course-card {
 }
 .spacer{
   flex: 1 1 auto;
+}
+
+.add-course-class{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
